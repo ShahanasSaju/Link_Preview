@@ -1,1 +1,1 @@
-C:\Users\shaha\source\repos\LinkPreview\LinkPreview\LinkPreview.csproj;x64
+D:\git\Link_Preview\LinkPreview\LinkPreview\LinkPreview.csproj;x64

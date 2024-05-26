@@ -24,7 +24,6 @@ namespace LinkPreview.ViewModel
 
         public LinkPreview_Model modelProperty { get; set; }
 
-       // private string _title;
         public string Title
         {
             get { return modelProperty.Title; }
@@ -35,7 +34,6 @@ namespace LinkPreview.ViewModel
             }
         }
 
-       // private string _description;
         public string Description
         {
             get { return modelProperty.Description; }
@@ -46,7 +44,6 @@ namespace LinkPreview.ViewModel
             }
         }
 
-       // private string _imageurl;
         public string ImageUrl
         {
             get { return modelProperty.Image; }
@@ -57,7 +54,6 @@ namespace LinkPreview.ViewModel
             }
         }
 
-      //  private string _url;
         public string Url
         {
             get { return modelProperty.Url; }
@@ -95,7 +91,7 @@ namespace LinkPreview.ViewModel
                 });
         }
 
-        //accept the url and provide the preview
+        //accept the url and provides the preview
         private async Task OnPreviewButtonClicked()
         {
             try
@@ -122,7 +118,7 @@ namespace LinkPreview.ViewModel
             }
         }
 
-        //Command for clearing input and outpur on the screen
+        //Method for clearing input and output on the screen
         private void ClearTextBox()
         {
             UrlEntry = string.Empty;
@@ -132,7 +128,7 @@ namespace LinkPreview.ViewModel
             ImageUrl = string.Empty;
         }
 
-        // Command for Opening the Url Preview
+        // Method for Opening the Url Preview
         public async Task OnOpenLink(string Url)
         {
             if(!string.IsNullOrEmpty(Url)) 

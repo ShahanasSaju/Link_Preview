@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "5j+98G3BKlUaPNdtyt0+jNYi3ovAavBVhv2ZFhbK6SQ/JR4EsHcm0nv+3VfkHiijzlRciRmKjBuJh/qGAfYTDg==",
+  "dgSpecHash": "oy8HGQyNk8J4HUYPCBB8n2b4E9kwcUpx19N/nWKFOPsNQ6LdkrTi+763U4E/BchNrGLwC1mwn9y3FBWTEFifhA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\shaha\\source\\repos\\LinkPreview\\LinkPreview\\LinkPreview.csproj",
+  "projectFilePath": "D:\\git\\Link_Preview\\LinkPreview\\LinkPreview\\LinkPreview.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\shaha\\.nuget\\packages\\communitytoolkit.mvvm\\8.2.2\\communitytoolkit.mvvm.8.2.2.nupkg.sha512",
     "C:\\Users\\shaha\\.nuget\\packages\\googlegson\\2.10.1.4\\googlegson.2.10.1.4.nupkg.sha512",
@@ -113,7 +113,11 @@
     "C:\\Users\\shaha\\.nuget\\packages\\xamarin.kotlin.stdlib.jdk8\\1.9.0.1\\xamarin.kotlin.stdlib.jdk8.1.9.0.1.nupkg.sha512",
     "C:\\Users\\shaha\\.nuget\\packages\\xamarin.kotlinx.coroutines.android\\1.7.2.1\\xamarin.kotlinx.coroutines.android.1.7.2.1.nupkg.sha512",
     "C:\\Users\\shaha\\.nuget\\packages\\xamarin.kotlinx.coroutines.core.jvm\\1.7.2.1\\xamarin.kotlinx.coroutines.core.jvm.1.7.2.1.nupkg.sha512",
-    "C:\\Users\\shaha\\.nuget\\packages\\microsoft.windows.sdk.net.ref\\10.0.19041.31\\microsoft.windows.sdk.net.ref.10.0.19041.31.nupkg.sha512"
+    "C:\\Users\\shaha\\.nuget\\packages\\microsoft.netcore.app.crossgen2.win-x64\\8.0.3\\microsoft.netcore.app.crossgen2.win-x64.8.0.3.nupkg.sha512",
+    "C:\\Users\\shaha\\.nuget\\packages\\microsoft.windows.sdk.net.ref\\10.0.19041.31\\microsoft.windows.sdk.net.ref.10.0.19041.31.nupkg.sha512",
+    "C:\\Users\\shaha\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x64\\8.0.3\\microsoft.aspnetcore.app.runtime.win-x64.8.0.3.nupkg.sha512",
+    "C:\\Users\\shaha\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x64\\8.0.3\\microsoft.windowsdesktop.app.runtime.win-x64.8.0.3.nupkg.sha512",
+    "C:\\Users\\shaha\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x64\\8.0.3\\microsoft.netcore.app.runtime.win-x64.8.0.3.nupkg.sha512"
   ],
   "logs": []
 }
