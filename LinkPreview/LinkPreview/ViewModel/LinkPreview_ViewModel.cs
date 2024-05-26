@@ -1,22 +1,15 @@
-﻿using LinkPreview.Model;
-using RestSharp;
-using System;
-using System.Collections.Generic;
+﻿using RestSharp;
 using System.ComponentModel;
-using System.Linq;
 using System.Runtime.CompilerServices;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Input;
+using LinkPreview.Model;
 
 namespace LinkPreview.ViewModel
 {
     public class LinkPreview_ViewModel:INotifyPropertyChanged
-    {   
-        
+    {    
         private CancellationTokenSource _searchdelaytimer;
         private const int SearchDelay = 150;
-
         
         private string _urlEntry;
         public string UrlEntry
@@ -29,59 +22,59 @@ namespace LinkPreview.ViewModel
             }
         }
 
-        
-        private string _title;
+        public LinkPreview_Model modelProperty { get; set; }
+
+       // private string _title;
         public string Title
         {
-            get { return _title; }
-            set {
-                _title = value;
+            get { return modelProperty.Title; }
+            set
+            {
+                modelProperty.Title = value;
                 OnPropertyChanged(nameof(Title));
             }
         }
 
-        
-        private string _description;
+       // private string _description;
         public string Description
         {
-            get { return _description; }
-            set {
-                _description = value;
+            get { return modelProperty.Description; }
+            set
+            {
+                modelProperty.Description = value;
                 OnPropertyChanged(nameof(Description));
             }
         }
 
-        
-        private string _imageurl;
+       // private string _imageurl;
         public string ImageUrl
         {
-            get { return _imageurl; }
-            set {
-                _imageurl = value;
+            get { return modelProperty.Image; }
+            set
+            {
+                modelProperty.Image = value;
                 OnPropertyChanged(nameof(ImageUrl));
             }
         }
 
-       
-        private string _url;
+      //  private string _url;
         public string Url
         {
-            get { return _url; }
-            set { 
-                _url = value;
+            get { return modelProperty.Url; }
+            set
+            {
+                modelProperty.Url = value;
                 OnPropertyChanged(nameof(Url));
             }
         }
 
-      
         public ICommand ClearTextCommand { get;}
 
-        
         public ICommand OpenLinkPreviewCommand { get; }
-
         
         public LinkPreview_ViewModel()
         {
+            modelProperty = new LinkPreview_Model();
             OpenLinkPreviewCommand = new Command(async(url)=>OnOpenLink(Url));       
             ClearTextCommand = new Command(ClearTextBox);
         }
@@ -147,7 +140,6 @@ namespace LinkPreview.ViewModel
                 await Browser.OpenAsync(Url,BrowserLaunchMode.SystemPreferred);
             }
         }
-
         
         public event PropertyChangedEventHandler PropertyChanged;
         protected virtual void OnPropertyChanged([CallerMemberName] string propertyName = null)

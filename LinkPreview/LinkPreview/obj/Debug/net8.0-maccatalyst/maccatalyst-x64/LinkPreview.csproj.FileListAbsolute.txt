@@ -300,3 +300,4 @@ C:\Users\shaha\source\repos\LinkPreview\LinkPreview\obj\Debug\net8.0-maccatalyst
 C:\Users\shaha\source\repos\LinkPreview\LinkPreview\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\LinkPreview.pdb
 C:\Users\shaha\source\repos\LinkPreview\LinkPreview\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\LinkPreview.genruntimeconfig.cache
 C:\Users\shaha\source\repos\LinkPreview\LinkPreview\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\ref\LinkPreview.dll
+C:\Users\shaha\source\repos\LinkPreview\LinkPreview\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\CommunityToolkit.Mvvm.dll

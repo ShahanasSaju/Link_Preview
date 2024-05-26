@@ -18,7 +18,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("LinkPreview")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+2a0784ea142dea8dcff70ec0667349583f09a0ed")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0")]
 [assembly: System.Reflection.AssemblyProductAttribute("LinkPreview")]
 [assembly: System.Reflection.AssemblyTitleAttribute("LinkPreview")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
